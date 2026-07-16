@@ -80,12 +80,12 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         } else if (note) {
           note.textContent = 'Something went wrong. Please call us at (507) 273-2360.';
-          note.style.color = '#9c6128';
+          note.style.color = '#8a3f35';
         }
       } catch (err) {
         if (note) {
           note.textContent = 'Something went wrong. Please call us at (507) 273-2360.';
-          note.style.color = '#9c6128';
+          note.style.color = '#8a3f35';
         }
       } finally {
         submitBtn.textContent = originalText;
